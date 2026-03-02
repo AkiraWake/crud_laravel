@@ -143,8 +143,8 @@ Body JSON:
 
 ```json
 {
-  "nome": "Gabriel",
-  "email": "gabriel@email.com",
+  "nome": "Teste",
+  "email": "Teste@email.com",
   "senha": "123456",
   "perfil_nome": "Administrador"
 }
