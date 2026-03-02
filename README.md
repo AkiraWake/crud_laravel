@@ -1,10 +1,10 @@
-# 📌 CRUD de Usuário com Perfil - Laravel
+#CRUD de Usuário com Perfil - Laravel
 
 Projeto desenvolvido como atividade prática utilizando o framework **Laravel**, implementando um sistema CRUD de Usuários com Perfil utilizando relacionamento **1:1** através do ORM Eloquent.
 
 ---
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - PHP 8+
 - Laravel 12
@@ -15,22 +15,22 @@ Projeto desenvolvido como atividade prática utilizando o framework **Laravel**,
 
 ---
 
-## 📚 Descrição do Sistema
+##Descrição do Sistema
 
 O sistema permite o gerenciamento de usuários e seus respectivos perfis.
 
-### 👤 Usuário
+###  Usuário
 - id
 - nome
 - email (único)
 - senha
 - profile_id
 
-### 🪪 Perfil
+###  Perfil
 - id
 - perfil_nome
 
-### 🔗 Regras Implementadas
+### Regras Implementadas
 
 - Relacionamento **1:1** entre Usuário e Perfil
 - CRUD completo de Usuário
@@ -41,7 +41,7 @@ O sistema permite o gerenciamento de usuários e seus respectivos perfis.
 
 ---
 
-# ⚙️ Instalação e Execução do Projeto
+#  Instalação e Execução do Projeto
 
 ## 1️⃣ Clonar o Repositório
 
@@ -127,12 +127,12 @@ http://127.0.0.1:8000
 
 ---
 
-# 🚀 Testando a API
+# Testando a API
 
 As requisições podem ser feitas utilizando **Postman** ou similar.
 
 ---
-## 📌 Criar Usuário
+## Criar Usuário
 
 **POST**
 ```
@@ -151,7 +151,7 @@ Body JSON:
 ```
 ---
 
-## 📌 Listar Usuários
+##  Listar Usuários
 
 **GET**
 ```
@@ -160,7 +160,7 @@ http://127.0.0.1:8000/api/users
 
 ---
 
-## 📌 Buscar Usuário por ID
+## Buscar Usuário por ID
 
 **GET**
 ```
@@ -169,7 +169,7 @@ http://127.0.0.1:8000/api/users/{id}
 
 ---
 
-## 📌 Atualizar Usuário
+## Atualizar Usuário
 
 **PUT**
 ```
@@ -177,7 +177,7 @@ http://127.0.0.1:8000/api/users/{id}
 ```
 ---
 
-## 📌 Remover Usuário
+## Remover Usuário
 
 **DELETE**
 ```
@@ -185,7 +185,7 @@ http://127.0.0.1:8000/api/users/{id}
 ```
 ---
 
-# 🧠 Estrutura do Projeto
+# Estrutura do Projeto
 
 ```
 app/
@@ -197,14 +197,3 @@ public/
 ```
 O sistema segue o padrão MVC do Laravel.
 ---
-# ✅ Status do Projeto
-
-✔ CRUD funcionando  
-✔ Relacionamento 1:1 implementado  
-✔ Banco configurado via migrations  
-✔ API testada via Postman  
----
-# 👨‍💻 Autor
-
-Gabriel Martins  
-Projeto acadêmico — Desenvolvimento Backend com Laravel
